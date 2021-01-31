@@ -20,6 +20,7 @@ a {text-decoration: none;}
 body {
     min-width: 1200px;
     font-size: 14px;
+    color: #202124;
 }
 /* header
 -----------------------------------------------*/
@@ -144,4 +145,29 @@ main {
 }
 .people-search-link:hover {
     text-decoration: underline;
+}
+
+/* footer
+---------------------------------------------------*/
+footer {
+    background: #f2f2f2;
+    border-top: 1px solid #dadce0;
+}
+.upper-footer {
+    border-bottom: 1px solid #dadce0;
+}
+.location {
+    display: block;
+    padding: 10px 0 10px 190px;
+}
+.lower-footer {
+    display: flex;
+    padding: 10px 0 10px 190px;
+}
+.lower-footer-link {
+    margin-right: 30px;
+    color: #70757a;
+}
+.lower-footer-link:hover {
+    color: black;
 }
